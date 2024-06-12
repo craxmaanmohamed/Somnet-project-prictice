@@ -51,7 +51,7 @@ export default function AboutHome() {
               beatae error laborum ab amet sunt recusandae? Reiciendis natus
               perspiciatis optio.
             </p>
-            <button class="relative w-42 px-10 font-medium  py-2 mt-10 overflow-hidden border-2 border-pr-color rounded-md text-white bg-pr-color shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-pr-color  hover:before:w-full hover:before:bg-white hover:after:w-2/4 hover:after:bg-white"><span class="relative z-10">  Learn More About Us</span></button>
+            <a href='About' class="relative w-42 px-10 font-medium  py-2 mt-10 overflow-hidden border-2 border-pr-color rounded-md text-white bg-pr-color shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-pr-color  hover:before:w-full hover:before:bg-white hover:after:w-2/4 hover:after:bg-white"><span class="relative z-10">  Learn More About Us</span></a>
 
             
 

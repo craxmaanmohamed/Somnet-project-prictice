@@ -42,8 +42,14 @@ module.exports = {
       },
       backgroundImage: {
         "contactbgimg":" linear-gradient(  #000000ac,#2babda75),url(/images/img3.jpg)",
-        "backroundimg":" linear-gradient(  #000000ac,#2babda75),url(/images/HomeB.jpg)",
+        "aboutbgimg":" linear-gradient(  #000000ac,#2babda75),url(/images/aboutImage1.jpg)",
+        "Businessbgimg":" linear-gradient(  #000000ac,#2babda75),url(/images/BusinessBg.jpg)",
+        "personalbgimg":" linear-gradient(  #000000ac,#2babda75),url(/images/PersonalBG.jpg)",
+        "backroundimg":" linear-gradient(  #000000bb,#2babdc99),url(/images/HomeB.jpg)",
       },
+      scale:{
+        'scale':"1.03"
+      }
     },
   },
   plugins: [],

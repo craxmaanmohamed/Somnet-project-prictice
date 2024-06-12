@@ -1,6 +1,10 @@
 "use client";
 import { React, useState } from 'react';
 import Link from 'next/link';
+import { IoMdMenu } from "react-icons/io";
+import { FaTimes } from "react-icons/fa";
+import Image from 'next/image';
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -10,8 +14,8 @@ export default function Header() {
     <nav id='nav' className="fixed z-10  w-full  bg-gray-100 h-16 flex justify-center items-center">
   <div className="container px-6 mx-auto md:flex md:justify-between md:items-center">
     <div className="flex items-center justify-between">
-      <a href="#">
-        <img className="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="Logo" />
+      <a href="/">
+        <Image width={100} height={100}  className="w-auto h-16 " src="/images/somnetLogo.png" alt="Logo" />
       </a>
       <div className="flex md:hidden">
         <button
@@ -21,14 +25,10 @@ export default function Header() {
           aria-label="toggle menu"
         >
           {isOpen ? (
-            <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
+            <FaTimes className="w-8 h-8"/>
           ) : (
-            <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M4 8h16M4 16h16" />
-            </svg>
-         
+            <IoMdMenu className="w-8 h-8"/>
+
           )}
         </button>
       </div>
@@ -36,7 +36,7 @@ export default function Header() {
     <div
       className={`${
         isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'
-      } mt-4 inset-x-0 z-20 w-full py-4 transition-all duration-500 ease-in-out fixed bg-slate-900 md:bg-transparent md:dark:bg-transparent md:mt-0 md:p-0 md:top-0 md:relative md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center`}
+      } inset-x-0 z-20 w-full py-4 transition-all duration-500 ease-in-out fixed bg-slate-900 md:bg-transparent md:dark:bg-transparent md:mt-0 md:p-0 md:top-0 md:relative md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center`}
     >
       <div className="flex h-full justify-center items-center flex-col md:flex-row">
         <Link   onClick={() => setIsOpen(!isOpen) } className="my-2 text-black max-md:text-white transition-colors duration-300 transform hover:text-pr-color md:mx-4 md:my-0" href="/">

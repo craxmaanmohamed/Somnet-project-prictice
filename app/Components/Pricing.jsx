@@ -10,7 +10,7 @@ export default function Pricing() {
         <h1 class="text-2xl text-center font-semibold  text-white capitalize lg:text-3xl">Choose The Best Data Plan </h1>
         <div class="grid gap-6 mt-16  sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
             {/* one */}
-            <div class="px-6  py-4 bg-white border-2 border-pr-color duration-200 transform rounded-lg">
+            <div class="px-6  py-4 bg-white border-2 border-pr-color hover:scale-scale transition-all duration-300 rounded-lg">
                 <p class="text-lg font-medium text-black">Basic</p>
                 <h4 class="mt-2 text-4xl font-semibold text-white dark:text-gray-400">$5
                     <span class="text-base font-normal text-gray-600 dark:text-gray-400">/ Month</span></h4>
@@ -57,7 +57,7 @@ export default function Pricing() {
             </div>
             {/* two */}
 
-            <div class="px-6 py-4 mb-4 -mt-3.5 bg-spr-color border-white border  duration-200 transform rounded-lg">
+            <div class="px-6 py-4 mb-4 -mt-3.5 bg-spr-color border-white border  hover:scale-scale transition-all duration-300 rounded-lg">
                 <p class="text-lg font-medium text-pr-color">Standard</p>
                 <h4 class="mt-2 text-4xl font-semibold text-white dark:text-gray-300">$5
                     <span class="text-base font-normal text-gray-600 dark:text-gray-400">/ Month</span></h4>
@@ -103,7 +103,7 @@ export default function Pricing() {
             </div>
             {/* tree */}
 
-            <div class="px-6  py-4 bg-white border-2 border-pr-color duration-200 transform rounded-lg">
+            <div class="px-6  py-4 bg-white border-2 border-pr-color hover:scale-scale transition-all duration-300 rounded-lg">
                 <p class="text-lg font-medium text-black">Premium</p>
                 <h4 class="mt-2 text-4xl font-semibold text-white dark:text-gray-400">$120
                     <span class="text-base font-normal text-gray-600 dark:text-gray-400">/ Month</span></h4>

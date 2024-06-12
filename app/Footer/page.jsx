@@ -44,7 +44,7 @@ export default function Footer() {
         
         <div class="flex items-center justify-between">
             <a href="#">
-                <Image width={100 }height={100} class="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt=""/>
+            <Image width={100} height={100}  className="w-auto h-16 " src="/images/somnetLogo.png" alt="Logo" />
             </a>
             
             <div class="flex justify-center items-center mx-2">
